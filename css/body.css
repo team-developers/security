@@ -1,0 +1,49 @@
+
+        .navbar-nav li{
+            padding-right: 12px;
+            font-family: cursive;
+            
+            }
+        
+        .navbar-nav li a:hover { 
+          background-color: rgba(0, 0, 255, 0.4);
+                }
+        #unhover a:hover{
+            
+            background-color: rgba(0, 0, 255, 0);
+        }
+        
+            html { 
+              background: url(a.jpg) no-repeat center center fixed; 
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+            }   
+        
+        .carousel-caption{
+            
+            font-family: 'Acme', sans-serif;
+            padding-bottom: 210px;
+            
+            
+        }
+        .carousel-caption h2{
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: #00008b;
+        }
+        .carousel-caption h4{
+            
+            color: black;
+        }
+        
+        #cards{
+            padding-bottom: 60px;
+        }
+        #id{
+            
+        }
+            
+    
