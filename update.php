@@ -15,7 +15,7 @@
     
 
 if($_POST['update']){
-    $file = $_FILES['file'];    //It is an array which contains informations                                obout the file.
+    $file = $_FILES['file'];    //It is an array which contains informations obout the file.
     
    $file_name = $file['name'];
     $file_type = $file['type'];
@@ -29,13 +29,13 @@ if($_POST['update']){
     
     $file_check = strtolower($file_extension[1]);
     
-    $file_ext_mandat = array('jpg');
+    $file_ext_mandat = array('jpg', 'jpeg');
     
     
     if($id==1 || $id==2 || $id==3){
     
     if(in_array($file_check, $file_ext_mandat)){
-        $destination = 'file/'.$name.'.'.$file_extension[1];
+        $destination = 'File/Slider/'.$name.'.'.$file_extension[1];
         move_uploaded_file($filetmp, $destination);
         
     

@@ -1,0 +1,1 @@
+<?php include "connection.php";$query = "SELECT * FROM cards WHERE id = '1'";$result = mysqli_query($connection, $query); while($row = mysqli_fetch_array($result)){echo $row['1'];}?>

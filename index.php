@@ -34,7 +34,16 @@
   <link rel="stylesheet" href="css/footer.css">  <!-- Body + Footer -->
     
       
-      
+      <style type="text/css">
+          @media(min-width:769px){
+          .slide img {
+           max-height: 610px;
+             }
+           }
+          
+          
+         
+      </style>
       
     <title>security services</title>
   </head>
@@ -48,9 +57,9 @@
       navigation bar start
     
     -------------------------->   
-    
+   
     <div class="container-fluid"  style="background-color: rgba(5, 12, 12, 0.007)">
-      <nav class="navbar navbar-expand-lg navbar-dark navbar fixed-top" style="background-color: black; background: rgba(30, 31, 38, 0.2)">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark navbar fixed-top" style="background-color: black; background: rgba(30, 31, 38, 0.2)">
         <a class="navbar-brand" href="#"><img src="logo.png" style="height:66px;padding-left:75px;"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -58,25 +67,21 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown" style="padding-left:38px;font-size: 20px;">
             <ul class="navbar-nav" >
               <li class="nav-item active" >
-                <a class="nav-link text-white btn " href="#" style="padding: 10px;"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                <a class="nav-link text-white btn " href="index.php" style="padding: 10px;"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link text-white btn " href="project/pages/about.html" style="padding: 10px;" ><i class="fas fa-users"></i> About Us</a>
+                <a class="nav-link text-white btn " href="page.html" style="padding: 10px;" ><i class="fas fa-users"></i> About Us</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link text-white btn " href="colorlib-regform-16\colorlib-regform-16\index.html" target="myIframe" style="padding: 10px;"><i style="font-size:24px" class="fa">&#xf183;</i> Career</a>
+                <a class="nav-link text-white btn " href="Career/index.php" target="_top" style="padding: 10px;"><i style="font-size:24px" class="fa">&#xf183;</i> Career</a>
                 
 
               </li>
               <li class="nav-item dropdown active">
-                <a class="nav-link text-white dropdown-toggle btn " href="#" id="navbarDropdownMenuLink" style="padding: 10px;" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link text-white btn " href="#" id="navbarDropdownMenuLink" style="padding: 10px;" role="button" aria-haspopup="true" aria-expanded="false">
                   <i class="fas fa-clipboard-list"></i>Services
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">gaurding services</a>
-                  <a class="dropdown-item" href="#">facilty services</a>
-                  <a class="dropdown-item" href="#">corporate services</a>
-                </div>
+               
                 
               </li>
               <li class="nav-item active">
@@ -87,7 +92,7 @@
                   <i style='font-size:24px' class='far'>&#xf2bb;</i> Contact Us
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item text-white" href="#">seecurity services<br>mangalagiri<br>+91 9959695016<br><a href="#">&nbsp;know more!</a></a>
+                  <a class="dropdown-item" href="#">Security services<br>mangalagiri<br>+91 9959695016<br><a href="#">&nbsp;know more!</a></a>
                  
                 </div>
               </li>
@@ -117,7 +122,7 @@
                 </ol>
                 <div class="carousel-inner" style="padding-top:2px;">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" class="img-fluid" src="File/1.jpg" width="100% \9" height="610px" alt="First slide">
+                    <img class="d-block w-100" class="img-fluid" src="File/Slider/1.jpg" width="100% \9" height="610px" alt="First slide">
                     
                     <div class="carousel-caption">
                         <h2 class="animated bounceInLeft" style="animation-delay: ">We are reliable</h2>
@@ -126,8 +131,8 @@
                     </div>
                   </div>
                 
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="File/3.jpg" class="img-fluid" width="100% \9" height="610px" lt="Third slide">
+                    <div class="carousel-item acive">
+                    <img class="d-block w-100" src="File/Slider/2.jpg" class="img-fluid" width="100% \9" height="610px" lt="Second slide">
                     <div class="carousel-caption">
                         <h2 class="animated animated bounceInDown">We are reliable</h2>
                         <h4 class="animated fadeInUpBig">Lorem ipsum dolor sit amet, consectetur</h4>
@@ -135,7 +140,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="File/3.jpg" class="img-fluid" width="100% \9" height="610px" lt="Third slide">
+                    <img class="d-block w-100" src="File/Slider/3.jpg" class="img-fluid" width="100% \9" height="610px" lt="Third slide">
                     <div class="carousel-caption">
                         <h2 class="animated zoomIn">We are reliable</h2>
                         <h4 class="animated zoomIn">Lorem ipsum dolor sit amet, consectetur</h4>
@@ -155,36 +160,9 @@
               </div>
               </div>
               
-   <!-----------------------------
-     
-    cards start
-   
-   -------------------------------->           
               
-  <div id= "cards" class="container-fluid" style="padding-top:15px;margin-left:44px;">
-            <div class="row">
-        <div class="card" style="width: 22rem; margin-left: 77px;" class="col-sm">
-              <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
-              <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="card" style="width: 22rem; margin-left: 99px;"class="col-sm" >
-                  <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
-                  <div class="card-body" >
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-              </div>
-                <div class="card" style="width: 22rem; margin-left: 99px;" class="col-sm">
-                      <img class="card-img-top" src="images/2.jpg"  alt="Card image cap">
-                      <div class="card-body" >
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                    </div>
-</div>
-</div>
-
-<div class="container-fluid" style="padding-top:9px;">
+              
+    <div class="container-fluid" style="padding-top:9px; ">
    <div class="jumbotron">
     <h1 style="text-align: center;" class="display-6">SECURITY SERVICES</h1>
     
@@ -195,14 +173,50 @@
 Our philosophy has always been that to provide our customers with the best Security Services in the industry and focus on excellent customer services. When you combine with our dedication to provide great services with our advanced technology, you can rest assured that your homes as well as your business places is protected with the peace of mind you deserve!</p>
     
   </div>
-</div>
-<div class="container-fluid" style="padding-top:9px;">
+</div>          
+              
+   <!-----------------------------
+     
+    cards start
+   
+   -------------------------------->           
+     
+     <!--Backend--> 
+     
+     
+      <div class="row" style="text-align: center; margin: auto;">        
+         <div class="card col-md-3 col-sm-12 col-10" style="width: 32%; margin:auto;">
+          <img src="File/Cards/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><?php include "connection.php";$query = "SELECT * FROM cards WHERE id = '1'";$result = mysqli_query($connection, $query); while($row = mysqli_fetch_array($result)){echo $row['1'];}?></p>
+          </div>
+        </div>
+        
+        <div class="card col-md-3 col-sm-12 col-10" style="width: 32%; margin: auto;">
+          <img src="File/Cards/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><?php include "connection.php";$query = "SELECT * FROM cards WHERE id = '2'";$result = mysqli_query($connection, $query); while($row = mysqli_fetch_array($result)){echo $row['1'];}?></p>
+          </div>
+        </div>
+        
+        <div class="card col-md-3 col-sm-12 col-10" style="width: 32%; margin:auto;">
+          <img src="File/Cards/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><?php include "connection.php";$query = "SELECT * FROM cards WHERE id = '3'";$result = mysqli_query($connection, $query); while($row = mysqli_fetch_array($result)){echo $row['1'];}?></p>
+          </div>
+        </div>
+        
+        
+      </div>
+
+
+<div class="container-fluid" style="padding-top:90px; text-align: center;">
     <div class="jumbotron">
-     <h1 class="display-4">looking for a job in securities?</h1>
-     <p class="lead">then,you are on the right place..!</p>
+     <h1 class="display-4">Looking for a Career in Securities?</h1>
+     <p class="lead">Then,you are on the right place..!</p>
      <hr class="my-4">
-     <p>our security services are faithful and impressive.</p>
-     <a class="btn btn-primary btn-lg" href="#" role="button">submit your resume..!</a>
+     <p>Our security services are faithful and impressive.</p>
+     <a class="btn btn-outline-primary btn-lg" href="#" role="button">Submit your Resume</a>
    </div>
  </div>
  
@@ -210,14 +224,14 @@ Our philosophy has always been that to provide our customers with the best Secur
     
     <div class="form-popup" id="myForm">
    <form method="POST" action="mail.php" class="form-container">
-    <strong><H1>ENQUIRY FORM1</H1></strong>
+    <strong><H1>Leave your Query here.</H1></strong>
 
     <input type="text" placeholder="Name" name="name" required>
 
-    <input type="text" placeholder="Enter phone number" name="Ph.no" required>
-    <input type="text" placeholder="your enquiry detailS" name="message" required>
+    <input type="text" placeholder="Enter phone number" name="phone" required>
+    <input type="text" placeholder="Your Query" name="message" required>
 
-    <button type="submit" class="btn">submit</button>
+    <button type="submit" class="btn">Submit</button>
     <button type="button" class="btn cancel" onclick="closeForm()">close</button>
   </form>
 </div>
@@ -231,7 +245,7 @@ Our philosophy has always been that to provide our customers with the best Secur
   <footer>
     <!-- Social -->
     <div class="background-primary padding text-center">
-        <a href="index.html"> security services</a> 
+        <a href="index.html"> Security Services</a> 
                                                                      
     </div>
     <!-- Main Footer -->
@@ -239,19 +253,20 @@ Our philosophy has always been that to provide our customers with the best Secur
       <div class="line"> 
         <div class="margin2x">
           <div class="s-12 m-6 l-3 xl-5">
-             <h4 class="text-white text-strong">security services</h4>
+             <h4 class="text-white text-strong">Security Services</h4>
              <p>
                <b class="text-size-20">why choose us? </b> best security <b class="text-size-20">Deleniti pertinacia eu est</b>, te his soluta quaestio pericula.
              </p>
           </div>
           <div class="s-12 m-6 l-3 xl-2">
              <h4 class="text-white text-strong margin-m-top-30">Useful Links</h4>
-             <a class="text-primary-hover" href="page.html">about us</a><br>      
+             <a class="text-primary-hover" href="page.html">About us</a><br>      
              <a class="text-primary-hover" href="contact.html">Contact Us</a><br>
-             <a class="text-primary-hover" href="clientele.html">clients</a>
+             <a class="text-primary-hover" href="clientele.html">Clients</a><br>
+             <a class="text-primary-hover" href="clientele.html">Career</a>
           </div>
           <div class="s-12 m-6 l-3 xl-2">
-             <h4> class="text-white text-strong margin-m-top-30">services</h4>
+             <h4 class="text-white text-strong margin-m-top-30">Services</h4>
              <a class="text-primary-hover" href="guarding.html">service 1</a><br>
              <a class="text-primary-hover" href="facility.html">service 2</a><br>
              <a class="text-primary-hover" href="consultancy.html">service 3</a>
@@ -276,7 +291,7 @@ Our philosophy has always been that to provide our customers with the best Secur
         <div class="s-12 l-6">
         </div>
         <div class="s-12 l-6">
-          <a class="right text-size-12 text-primary-hover" href="#" title="Responsee - lightweight responsive framework">Design and coding<br> by team web smith's</a>
+          <a class="right text-size-12 text-primary-hover" href="#" title="Responsee - lightweight responsive framework">Designed by team web smith's</a>
         </div>
       </div>  
     </section>
@@ -300,5 +315,18 @@ Our philosophy has always been that to provide our customers with the best Secur
           document.getElementById("myForm").style.display = "none";
         }
         </script>
+        
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+              if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+              } else {
+                document.getElementById("navbar").style.top = "-100px";
+              }
+              prevScrollpos = currentScrollPos;
+            }
+            </script>
 
 </html>
